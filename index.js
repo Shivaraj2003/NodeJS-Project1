@@ -1,7 +1,7 @@
 const express = require("express");
 const userRouter = require('./routes/user');
 const connectMongodb = require('./connection');
-// require('dotenv').config();
+require('dotenv').config();
 
 const app = express();
 const port = process.env.PORT || 8000;
